@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.menu{
+	color:white;
+	background-color: #45015d;
+	font-weight: bold;
+	border-radius: 15px;
+	padding: 10px 20px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 150px;
+
+}
+.menu a{
+	color: white;
+	display: block;
+	padding: 8px 16px;
+	width: 100%;
+	text-decoration: none;
+	font-weight: 900;
+	box-sizing: border-box;
+}
+.menu a:hover{
+	background-color: white;
+	color: black;
+}
+h1{
+	font-size: 64px;
+	font-weight: 400;
+}
+.main{
+	margin-left: 360px ;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+body{
+	margin: 0px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+.images img{
+	width: 45%;
+	margin: 5px;
+	border-radius: 10px;
+	opacity: 0.7;
+
+}
+.images img:hover{
+	opacity: 1;
+}
+h2{
+	font-size: 48px;
+	color: #45015d;
+	font-weight: 400;
+	margin: 10px 0px;
+	text-align: left;
+}
+hr{
+	border: 5px solid #45015d;
+	border-radius: 4px;
+	width: 100%;
+	margin: 20px 0px;
+
+}
+.cardteam{
+	width: 30%;
+	padding: 8px;
+	display: inline-block;
+
+}
+.cardteam img{
+	width: 100%;
+	border-radius: 10px;
+	filter: grayscale(30%);
+}
+.description{
+	background-color:#f1f1f1;
+	padding: 2px 16px 5px;
+	border-radius: 5px;
+
+}
+.position{
+	opacity: 0.7;
+}
+.Packages{
+	text-align: center;
+}
+.tariff li{
+  list-style:none;
+  border-bottom: 3px solid #dddddd ;
+  border-radius: 12px ;
+  padding: 16px 0px;
+  color: black;
+  
+
+ }
+ .tariff{
+	display: inline-block;
+	width: 45%;
+	margin: 20px;
+	padding: 0px;
+	text-align: center;
+	background-color: #f1f1f1;
+}
+.basic .basic-name{
+	background-color: #44085c;
+	color: white;
+	padding: 32px 0px;
+	font-size: 40px;
+	border-radius: 12px;
+}
+.Packages a{
+	color:white;
+	background-color:#44085c;
+	width: 20%;
+	display: inline-block;
+	padding: 10px 0px;
+	text-decoration: none;
+	border-radius: 25px;
+}
+.price{
+	font-weight: 500;
+	font-size: 34px;
+}
+
+
+.pro .basic-name{
+	background-color: #f1453d;
+	color: white;
+	padding: 32px 0px;
+	font-size: 40px;
+	border-radius: 12px;
+}
+.pro a{
+	color:white;
+	background-color: #f1453d;
+}
+.pro a:hover{
+	color:#f1453d;
+	background-color:white;
+}
+.basic a:hover{
+	color:#44085c;
+	background-color: white;
+}
+.period{
+	color: gray;
+}
+.form label{
+	display: block;
+	font-size: 18px;
+}
+.form input{
+	width: 100%;
+	padding: 10px 0px;
+	border: 1px solid #dddddd;
+	}
+.form button{
+	width: 100%;
+	padding: 15px 0px;
+	color: white;
+	background-color:#44085c;
+	border-radius: 12px;
+	border: none;
+	font-size: 20px;
+}
+.end{
+	background-color:#f1f1f1;
+	padding: 30px;
+	margin-top: 70px;
+}
+.world{
+	margin-left: 85%;
+}
+.end-link{
+	color:black;
+}
+.form button:hover{
+	color:#44085c;
+	background-color:#f1f1f1;
+}
+
+
+
+	
+
